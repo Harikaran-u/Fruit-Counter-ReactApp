@@ -1,0 +1,80 @@
+/* Write your CSS here */
+
+.bg-cont {
+  background-color: #ffd569;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.content-cont {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0px;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.counter-head {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+}
+.style-fruit {
+  color: #ffd569;
+}
+.fruits-card-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.mango-cont {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.banana-cont {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fruit-img {
+  height: 120px;
+  width: 120px;
+}
+.eat-btn {
+  height: 32px;
+  width: 120px;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 0px;
+  font-family: Roboto;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+  .fruits-card-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bg-cont {
+    flex-wrap: wrap;
+  }
+  .counter-head {
+    font-size: 24px;
+  }
+}
